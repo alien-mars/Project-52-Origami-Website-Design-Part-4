@@ -1,0 +1,113 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-family :'Lucida Sans';
+    font-size: 22px;
+    font-family: 'sans','serif';
+    font-weight: 400;
+    color: white;   
+    padding : 15px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(238, 235, 235);
+    margin: 0px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.grid img{
+    border : 2px solid black;
+    border-radius: 50px;
+}
+
+.bodyimg{
+    position : relative;
+}
+
+.bodyimg p{
+    text-align: center;
+    position : absolute;
+    top : 10%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.bodyimg h3{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+
+.origami{
+    background-color: white;
+    width : 310px;
+    font-family: 'fantasy';
+    padding: 10px;
+    margin: 20px;
+}
+
+.ham {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+a:link{
+    color : rgb(255, 255, 255);
+}
+
+a:visited{
+    color : white;
+}
+
+.origami{
+    position : relative;
+}
+
+.origami pi{
+    position : absolute;
+    top : 30%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    opacity: 0;
+}
+
+.origami:hover pi{
+    opacity: 1;
+}
+
+.origami:hover img{
+    opacity: 0.33;
+    transform : scale(1.2);
+}
+
+.contact a{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
